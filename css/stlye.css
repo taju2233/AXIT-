@@ -1,0 +1,552 @@
+/*********************
+   google font add
+**********************/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/*********************
+   google font name
+**********************/
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+
+header
+{
+	width: 100%;
+	  background: black;
+      padding: 10px;
+}		
+
+.Cover{
+	width: 100%;
+	background-image: url(../img/cover.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.navbar{
+    padding: 1rem 1rem !important;
+}
+
+.nav-item{
+     margin-left: 20px;
+}
+.nav-link{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: white !important;
+}
+
+/* <!--***********************
+       Cover image add
+    ***************************-->*/
+
+.left-section{
+	color: #fff;
+	display: table-cell;
+	vertical-align: middle;
+  height: 100vh;
+}
+  	
+  .left-section .img-need {
+  	margin-bottom: 12px;
+  	
+  }
+
+  .left-section h4{
+  	font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 15px 0;
+  }
+  .left-section .line{
+ 	height: 3px;
+ 	width: 51px;
+  background: white;
+  }
+  .left-section p{
+  	  font-family: 'Raleway', sans-serif;
+      font-weight: 200;
+      margin: 10px 0;
+      font-size: 15px;
+        
+  }
+.bton{
+    padding: 10px 25px;
+  margin-top: 10px;
+  background-color: transparent;
+  border: 2px solid white;
+  background:;
+  color: white;
+
+  }
+  .bton:hover{
+    background: white;
+    color: black;
+  }
+
+  .right-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+  }
+  .card{
+  margin-left: 100px;
+
+  }
+  .right-section .card .card-header h1{
+      font-size: 23px;
+      text-align: center;
+  }
+  .card .card-body .form-group{
+      margin-bottom: 2rem;
+  }
+  .card .card-body .form-group .form-control{ 
+       border: none;
+      /* border: 2px solid black; */
+      border-bottom: 2px solid gainsboro;
+      border-radius: 0px;
+}
+ .card .card-body .form-group .form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: none;
+}
+ .card .card-footer input{
+    width: 100%;
+  padding: 14px 0;
+    width: 100%;
+  padding: 14px 0;
+  border: none;
+  background: #ff7d1e;
+ }
+.card-footer{
+  padding: 0;
+  background-color: rgba(0,0,0,.03);
+  border-top: 0px;
+}
+.icon-contain{
+  padding: 30px;
+}
+
+.icon-text h4{
+    font-family: 'Open Sans', sans-serif;
+      font-weight: 500;
+      font-size: 30px;
+      margin-bottom: 20px 0px;
+      margin-bottom: 1rem;
+
+}
+.icon-text p{
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 200 bold;
+      font-size: 18px;
+        margin-right: 16px;
+}
+.Social-icon{
+    text-align: center;
+  padding-top: 20px;
+}
+
+.Social-icon i{
+  font-weight: 600;
+  font-size: 40px;
+  padding-right: 40px;
+  text-align: center;
+}
+
+.feser-section{
+  width: 100%;
+  background-color: #EBEBEB;
+  padding: 120px 0px;
+}
+.tab-tex ul li{
+  list-style: none;
+  background: #333333;
+  border-bottom: 1px solid white;
+  height: 100px;
+  width: 120px;
+  color: #fff;
+  text-align: center;
+  line-height: 110px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.tab-tex .active{
+    background-color: #ff7d1e !important;
+}
+
+/*-------------
+--------------*/
+.midle-text{
+  padding-left: 10px;
+}
+.midle-text h2{
+  padding-bottom: 30px;
+  font-weight: 700;
+  font- size: 30px;
+
+}
+.midle-text p{
+   padding-bottom: 25px;
+  font-weight: 400;
+  font-size: 18px;
+}
+.Downlod{
+   padding: 10px 40px;
+  margin-top: 10px;
+  background-color: transparent;
+  border: 2px solid black;
+  background: #ff7d1e;
+  color: white;
+}
+  .Downlod:hover{
+    background:white;
+    color: black;
+  }
+.img-itam{
+    text-align: center;
+     margin-top: 70px;
+}
+
+ /*<!-- Sub list section -->*/
+
+.sub-list{
+  width: 100%;
+  padding: 100px 0;
+ }
+.left-img
+
+.right-text h2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+}
+.right-text .font-itam h6{
+    font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px
+}
+.line{
+  height: 3px;
+  width: 84px;
+  margin: 20px 0 20px 0;
+  background: #ff7d1e;
+}
+.cercal{
+    border: 1px solid #ff7d1e;;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  line-height: 55px;
+  margin-top: 5px;
+  font-size: 30px;
+  color: #ff7d1e;
+    margin-top: 16px
+}
+.lorem-2{
+  font-family: 'Raleway', sans-serif;
+    margin-top: 14px
+
+}
+.lorem-2 h6{
+   font-weight: 600;
+   font-size: 18px
+}
+.lorem-2 p{
+   font-weight: 600;
+   font-size: 15px
+}
+.Picture-section{
+  width: 100%;
+  padding: 120px 0;
+  background: #f5f5f5;
+
+}
+.Started-post{
+  font-family: 'Open Sans', sans-serif;
+}
+.Started-post h4{
+  font-weight: 600;
+  font-size: 36px;
+
+}
+
+.Started-post p{ 
+  font-weight: 400;
+  font-size: 16px;
+}
+
+
+/*****************************
+awsome section is start
+******************************/
+.awesome-side{
+  padding: 120px 0;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+
+}
+.awesome-side .lite{
+  text-align: center;
+   height: 3px;
+  width: 100px;
+  margin: 20px 0 20px 0;
+  background: #ff7d1e;
+ display: inline-block;
+}
+.awesome-side h1{
+  font-weight: 400;
+  font-size: 36px;
+}
+.awesome-side p{
+  font-weight: 400;
+  font-size: 16px;
+}
+.min{
+  margin-top: 50px;
+}
+.design-1{
+   font-family: 'Open Sans', sans-serif;
+}
+.design-1 .cercal{
+    height: 80px;
+    width: 80px;
+   line-height: 75px;
+   font-size: 36px;
+     margin-left: 120px;
+    margin-bottom: 10px;
+}
+.design-1 h3{
+    font-weight: 600;
+    font-size: 32px;
+    margin-left: 10px
+}
+
+.design-1 p{
+     font-weight: 400;
+    font-size: 14px;
+    margin-top: 12px;
+    color: #86878b;
+  }
+
+
+  /************************
+      Prising Option
+  *************************/
+  .taka{
+     background: #f5f5f5; 
+  }
+  .Prising-cover{
+    padding: 120px 0;
+   
+  }
+  .Prising-text{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+  }
+.Prising-text .line{
+    display: inline-block !important;
+   }
+.Prising-text h4{
+    font-weight: 600;
+    font-size: 32px;
+    text-transform: uppercase;
+
+   }
+.Prising-text p{
+    font-weight: 400;
+    font-size: 16;
+     }
+
+     /*******************
+        Card Section-1
+     *********************/
+
+
+}
+.Prising-table{
+  padding: 120px 0;
+  margin: 0;
+  align-items: center;
+}
+.Prising-table .card{
+  border: 0;
+}
+.Prising-table .card-header{
+  background: #333333;
+  color: #fff;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  padding: 0;
+}
+.Prising-table .card-body{
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  background: #333333;
+  color: white;
+  text-align: center;
+  border-bottom: 7px solid rgb(255, 125, 30);
+}
+.Prising-table .card-body .span{
+    font-size: 23px;
+  font-weight: 700;
+}
+.Prising-table .card-body h1{
+  font-size: 90px;
+  font-weight: 700;
+}
+.Prising-table .card-body p{
+  font-style: italic;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.Prising-table .card-footer{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  padding: 0;
+  background: white;
+}
+.Prising-table .card-footer ul{
+  margin: 0;  
+}
+
+.Prising-table .card-footer ul li{
+  list-style: none;
+  background: #fff;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f5f5f5;
+  text-transform: uppercase; 
+}
+}
+.middle .card-body{
+  /*border: none;*/
+  padding: 0;
+  border-bottom: ;
+}
+.middle .Populer{
+  background: #ff9b51;
+}
+.middle .Populer p{
+      margin: 0;
+  font-style: normal !important;
+  font-weight: 700;
+  padding: 10px 0 !important;
+  text-transform: uppercase;
+  color: white !important;
+  /*border-bottom: 0;*/
+}
+/*************************
+    Massage Section
+***************************/
+.massang-section{
+
+}
+
+.msg-box{
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 6px;
+  position: relative;
+}
+.msg-box p{
+  padding: 0;
+
+}
+.box-icon{
+  height: 40px;
+  width: 40px;
+  background: #f5f5f5;
+  bottom: -20px;
+  position: absolute;
+  left: 61px;
+  transform: rotate(45deg);
+}
+
+.user-info{
+      padding-top: 25px;
+      padding-left: 69px;
+}
+.user-info .cut{
+    padding-top: 12px;
+    padding-left: 22px;
+}
+
+/*/*************************
+    cover img
+****************************/
+.styles-degain{
+  padding: 20px 0;
+}
+
+.cover-img{
+  background-image: url(../img/cover-imge.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 50vh;
+}
+.cover-img .cover-contain{
+    padding: 40px;
+}
+.cover-img .cover-contain h4{
+  color: #fff;
+}
+.cover-img .cover-contain p{
+  color: #fff;
+}
+.cover-img .cover-contain line{
+  background: #fff;
+}
+
+.btn-cover{
+    text-align: center;
+}
+
+
+/*****************************
+   CONTACT US SECTION START
+******************************/ 
+.contact-section{
+  width: 100%;
+  padding: 120px 0;
+}
+
+.form-section .form-control{
+    border: transparent;
+  border-bottom: 1px solid black;
+  border-radius: 0px;
+  margin-bottom: 45px;
+}
+.page-footer{
+  background: black !important;
+}
+ a{
+  padding: 17px !important;
+}
+.footer-copyright{
+  color: #f5f5f5; 
+}
+.footer-copyright p{
+    margin-top: -55px;
+  margin-bottom: 1rem;
+}
+
+
+button{
+    background: #ff7d1e;
+  padding: 10px 30px;
+  margin-left: 500px;
+  border-radius: 5px;
+  background: #ff7d1e;
+}
